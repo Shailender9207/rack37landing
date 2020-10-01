@@ -1,0 +1,525 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Rck37 - E-commerce</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="./img/logo/logo_header.png">
+   
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/dripicons.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet"  href="css/step-form.css">
+
+</head>
+<body>
+<!-- header -->
+<header class="header-area header-background">
+    <div id="header-sticky" class="menu-area">
+        <div class="container">
+            <div class="second-menu">
+                <div class="row align-items-center">
+                    <div class="col-xl-2 col-lg-2">
+                        <div class="logo">
+                            <a href="index.html"><img src="img/logo/logo_header.png" height="56" alt="logo"></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-lg-9">
+                        <div class="responsive"><i class="icon dripicons-align-right"></i></div>
+                        <div class="main-menu text-right text-xl-right">
+                            <nav id="mobile-menu">
+                                <ul>
+                                    <li class="has-sub">
+                                        <a href="#parallax">Home</a>
+                                    </li>
+                                    <li><a href="#about">About Us</a></li>
+                                    <li><a href="#features">Features</a></li>
+                                    <li><a href="#screen">Screenshort</a></li>
+                                    <li class="has-sub">
+                                        <a href="#screen">Other</a>
+                                        <ul>
+                                            <li><a href="#pricing">Pricing</a></li>
+                                            <li><a href="#testimonios">Testimonios</a></li>
+                                            <li><a href="blog.html">Blog</a></li>
+                                            <li><a href="blog-details.html">Blog Deatils</a></li>
+                                        </ul>
+
+                                    </li>
+                                    <li><a href="#blog">Blog</a></li>
+                                    <li><a href="#contact">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <!-- <div class="col-xl-2 text-right d-none d-xl-block">
+                        <div class="header-btn second-header-btn">
+                            <a href="#" class="btn">Download</a>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- header-end -->
+<section>
+    <!-- MultiStep Form -->
+<div class="container-fluid" id="grad1">
+    <div class="row justify-content-center mt-0">
+        <div class="col-11 col-sm-9 col-md-7 col-lg-6 text-center p-0 mt-3 mb-2">
+            <div class="card px-0 pt-4 pb-0 mt-3 mb-3">
+                <h2><strong>Sign Up Your User Account</strong></h2>
+                <p>Fill all form field to go to next step</p>
+                <div class="row">
+                    <div class="col-md-12 mx-0">
+                        <form id="msform">
+                            <!-- progressbar -->
+                            <ul id="progressbar">
+                                <li class="media active" id="account">
+                                    
+                                        <i aria-hidden="true" class="fa fa-user" style="font-size: 56px;"></i>
+                                        <div class="media-body ml-4">
+                                        <h5 class="mt-0">Account Information</h5>
+                                        Create your account
+                                        </div>
+                                    
+                                </li>
+                                <li id="personal"><strong>Personal</strong></li>
+                                <li id="payment"><strong>Payment</strong></li>
+                                <li id="confirm"><strong>Finish</strong></li>
+                            </ul> <!-- fieldsets -->
+                            <fieldset>
+                                <div class="form-card">
+                                    <h2 class="fs-title">Account Information</h2> <input type="email" name="email" placeholder="Email Id" /> <input type="text" name="uname" placeholder="UserName" /> <input type="password" name="pwd" placeholder="Password" /> <input type="password" name="cpwd" placeholder="Confirm Password" />
+                                </div> <input type="button" name="next" class="next action-button" value="Next Step" />
+                            </fieldset>
+                            <fieldset>
+                                <div class="form-card">
+                                    <h2 class="fs-title">Personal Information</h2> <input type="text" name="fname" placeholder="First Name" /> <input type="text" name="lname" placeholder="Last Name" /> <input type="text" name="phno" placeholder="Contact No." /> <input type="text" name="phno_2" placeholder="Alternate Contact No." />
+                                </div> <input type="button" name="previous" class="previous action-button-previous" value="Previous" /> <input type="button" name="next" class="next action-button" value="Next Step" />
+                            </fieldset>
+                            <fieldset>
+                                <div class="form-card">
+                                    <h2 class="fs-title">Payment Information</h2>
+                                    <div class="radio-group">
+                                        <div class='radio' data-value="credit"><img src="https://i.imgur.com/XzOzVHZ.jpg" width="200px" height="100px"></div>
+                                        <div class='radio' data-value="paypal"><img src="https://i.imgur.com/jXjwZlj.jpg" width="200px" height="100px"></div> <br>
+                                    </div> <label class="pay">Card Holder Name*</label> <input type="text" name="holdername" placeholder="" />
+                                    <div class="row">
+                                        <div class="col-9"> <label class="pay">Card Number*</label> <input type="text" name="cardno" placeholder="" /> </div>
+                                        <div class="col-3"> <label class="pay">CVC*</label> <input type="password" name="cvcpwd" placeholder="***" /> </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-3"> <label class="pay">Expiry Date*</label> </div>
+                                        <div class="col-9"> <select class="list-dt" id="month" name="expmonth">
+                                                <option selected>Month</option>
+                                                <option>January</option>
+                                                <option>February</option>
+                                                <option>March</option>
+                                                <option>April</option>
+                                                <option>May</option>
+                                                <option>June</option>
+                                                <option>July</option>
+                                                <option>August</option>
+                                                <option>September</option>
+                                                <option>October</option>
+                                                <option>November</option>
+                                                <option>December</option>
+                                            </select> <select class="list-dt" id="year" name="expyear">
+                                                <option selected>Year</option>
+                                            </select> </div>
+                                    </div>
+                                </div> <input type="button" name="previous" class="previous action-button-previous" value="Previous" /> <input type="button" name="make_payment" class="next action-button" value="Confirm" />
+                            </fieldset>
+                            <fieldset>
+                                <div class="form-card">
+                                    <h2 class="fs-title text-center">Success !</h2> <br><br>
+                                    <div class="row justify-content-center">
+                                        <div class="col-3"> <img src="https://img.icons8.com/color/96/000000/ok--v2.png" class="fit-image"> </div>
+                                    </div> <br><br>
+                                    <div class="row justify-content-center">
+                                        <div class="col-7 text-center">
+                                            <h5>You Have Successfully Signed Up</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<section class="newslater-area pt-50 pb-50 mb-70"
+         style="background-image: url(./img/background/msme-sell-bg.png);background-size: cover; background-position: center center;">
+    <div class="container">
+        <div class="row justify-content-center">
+            <h2 style="text-align: center;" class="pb-20">Sell your returned, excess, or refurbished inventory to thousands of interested buyers.</h2>
+            <a href="#" class="btn btn-outline-primary box-shadow-none primary-theme-btn">Selling Tips</a>
+
+            <a href="demo-request.html" class="btn btn-outline-primary box-shadow-none ml-4 primary-theme-btn">Why Supply?</a>
+        </div>
+    </div>
+</section>
+<section>
+<div class="container">
+    <div class="row justify-content-center"></div>
+        <div class="">
+            <div class="row setup-panel step-form">
+            
+                <div class="col-lg-4 step-form-head">
+                    <a href="#step-1" >
+                        <div class="media">
+                            <i aria-hidden="true" class="fa fa-user" style="font-size: 56px;"></i>
+                            <div class="media-body ml-4">
+                            <h5 class="mt-0">Account Information</h5>
+                            Create your account
+                            </div>
+                        </div>  
+                    </a>                  
+                </div>
+            
+                <div class="col-lg-4 step-form-head"> 
+                    <a href="#step-2" >
+                        <div class="media">
+                            <i aria-hidden="true" class="fa fa-truck" style="font-size: 56px;"></i>
+                            <div class="media-body ml-4">
+                            <h5 class="mt-0">Warehouse Information</h5>
+                            Enter warehouse information
+                            </div>
+                        </div>  
+                    </a>  
+                </div>
+                <div class="col-lg-4 step-form-head"> 
+                    <a href="#step-3" >
+                        <div class="media">
+                            <i aria-hidden="true" class="fa fa-shopping-cart" style="font-size: 56px;"></i>
+                            <div class="media-body ml-4">
+                            <h5 class="mt-0">Billing and Confirm</h5>
+                            Process payment and finalize
+                            </div>
+                        </div>  
+                    </a>  
+                </div>
+                
+            </div>
+        </div>
+        
+            <form role="form">
+                <div class="panel panel-primary setup-content" id="step-1">
+                    <div class="card" style="width: 100%;">
+                        <div class="card-header">
+                            Seller and Carrier Portal
+                        </div>
+                        <form action="#" class="pt-40 pb-40 pl-20 pr-20">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="contact-field p-relative c-name mb-20">
+                                        <input type="text" placeholder="Username">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="contact-field p-relative c-email mb-20">
+                                        <input type="text" placeholder="password">
+                                    </div>
+                                </div>                        
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="panel panel-primary setup-content" id="step-2">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Destination</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="form-group">
+                            <label class="control-label">Company Name</label>
+                            <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label">Company Address</label>
+                            <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
+                        </div>
+                        <button class="btn btn-primary nextBtn pull-right" type="button">Next</button>
+                    </div>
+                </div>
+                
+                <div class="panel panel-primary setup-content" id="step-3">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Schedule</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="form-group">
+                            <label class="control-label">Company Name</label>
+                            <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label">Company Address</label>
+                            <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
+                        </div>
+                        <button class="btn btn-primary nextBtn pull-right" type="button">Next</button>
+                    </div>
+                </div>
+                
+                <div class="panel panel-primary setup-content" id="step-4">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Cargo</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="form-group">
+                            <label class="control-label">Company Name</label>
+                            <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label">Company Address</label>
+                            <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
+                        </div>
+                        <button class="btn btn-success pull-right" type="submit">Finish!</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row mb-20">
+            <div class="col-lg-8 offset-1">
+                <div class="card" style="width: 100%;">
+                    <div class="card-header">
+                        Before you get started, we'll need some information about your business.
+                        <ul class="number-style" style="padding-left:40px;">
+                            <li>Legal business name and company information</li>
+                            <li>Warehouse location and shipping preferences</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row mb-20">
+            <div class="col-lg-8 offset-1">
+                <div class="card" style="width: 100%;">
+                    <div class="card-header">
+                        Business Information
+                    </div>
+                    <div style="padding: 15px;">
+                        <form>
+                            <div class="form-group">
+                              <label for="exampleInputEmail1">Legal business name </label>
+                              <input type="text" class="form-control" name="name">
+                            </div>
+                            <div class="form-group">
+                              <label for="Country">Country</label>
+                              <select class="form-control" id="Country">
+                                <option>India</option>
+                                <option>Pakistan</option>
+                                <option>Dubai</option>
+                              </select>
+                            </div>
+                            
+                            <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+                          </form>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row mb-20">
+            <div class="col-lg-8 offset-1">
+                <div class="card" style="width: 100%;">
+                    <div class="card-header">
+                        Primary Point of Contact
+                    </div>
+                    <div style="padding: 15px;">
+                        <form>
+                            <div class="form-group">
+                              <label for="exampleInputEmail1">Email address </label>
+                              <input type="email" class="form-control" name="email" aria-describedby="emailHelp">
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" class="form-control" id="password">
+                              
+                            </div>
+                            <div class="form-group">
+                                <label for="c_password">Confirm Password</label>
+                                <input type="password" class="form-control" name="c_password">
+                              
+                            </div>
+                            <div class="form-group">
+                                <label for="first_name">First name</label>
+                                <input type="text" class="form-control" name="first_name">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="last_name">Last name</label>
+                                <input type="text" class="form-control" name="last_name">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone_number"> Phone number</label>
+                                <input type="number" class="form-control" name="phone_number">
+                            </div>
+                           
+                            
+                          </form>
+                    </div>
+                    
+                </div>
+                <button type="submit" class="btn btn-primary mt-15">Submit</button>
+            </div>
+            
+        </div>
+        
+    </div>
+</section>
+
+
+<!-- footer -->
+<footer class="footer-bg footer-p pt-60"
+        style="background-image: url(img/background/footer_bg.png); background-position: center top; background-size: auto;background-repeat: no-repeat;">
+
+    <div class="footer-top">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-xl-3 col-lg-3 col-sm-6">
+                    <div class="footer-widget mb-30">
+                        <div class="logo mt-15 mb-15">
+                            <a href="#"><img src="img/logo/logo_header.png" height="56" alt="logo"></a>
+                        </div>
+                        <div class="footer-text mb-20">
+                            <p style="font-size:14px">Connecting SMB sellers and buyers, Suppliers which allows you to buy and sell across hundreds of product categories, brands, and conditions - all in one place.</p>
+                        </div>
+                        <div class="footer-social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-sm-6">
+                    <div class="footer-widget mb-30">
+                        <div class="f-widget-title">
+                            <h5>Company News</h5>
+                        </div>
+                        <div class="footer-link">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Features</a></li>
+                                <li><a href="#">ScreenShort</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-sm-6">
+                    <div class="footer-widget mb-30">
+                        <div class="f-widget-title">
+                            <h5>Useful Links</h5>
+                        </div>
+                        <div class="footer-link">
+                            <ul>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">DownLoad App</a></li>
+                                <li><a href="#">Support</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-sm-6">
+                    <div class="footer-widget mb-30">
+                        <div class="f-widget-title">
+                            <h5>Contact Us</h5>
+                        </div>
+                        <div class="footer-link">
+                            <div class="f-contact">
+                                <ul>
+                                    <li>
+                                        <i class="icon dripicons-phone"></i>
+                                        <span>+91-844-844-04-37</span>
+                                    </li>
+                                    <li>
+                                        <i class="icon dripicons-mail"></i>
+                                        <span><a href="mailto:support@rack37.com.com">support@rack37.com</a></span>
+                                    </li>
+                                    <li>
+                                        <i class="fal fa-map-marker-alt"></i>
+                                        <span>2nd floor, Plot no.3, Dhanraj Plaza, 
+                                            Sector 19, NEW DELHI-110075</span>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright-wrap text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="copyright-text">
+                        <p>&copy; 2020 @ Rack37 All right reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- footer-end -->
+
+
+<!-- JS here -->
+<script src="js/vendor/modernizr-3.5.0.min.js"></script>
+<script src="js/vendor/jquery-1.12.4.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/one-page-nav-min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/ajax-form.js"></script>
+<script src="js/paroller.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/js_isotope.pkgd.min.js"></script>
+<script src="js/imagesloaded.min.js"></script>
+<script src="js/parallax.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/jquery.scrollUp.min.js"></script>
+<script src="js/typed.js"></script>
+<script src="js/parallax-scroll.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/element-in-view.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/main.js"></script>
+
+<script src="js/step-form.js"></script>
+</body>
+
+</html>
